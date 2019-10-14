@@ -1,0 +1,25 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppBarTestWithWPF"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Title="MainWindow" Height="0" Width="0">
+    <Window.Background>
+        <SolidColorBrush Color="Black" Opacity="0.5"/>
+    </Window.Background>
+
+    <Grid x:Name="MyGrid" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" >
+        <StackPanel x:Name="MyButtons" Orientation="Horizontal">
+            <Button x:Name="MyButton" Content="ClickMe"/>
+            <Button x:Name="BtnTop" Content="Top"/>
+            <Button x:Name="BtnRight" Content="Right"/>
+            <Button x:Name="BtnLeft" Content="Left"/>
+            <Button x:Name="BtnBottom" Content="Bottom"/>
+        </StackPanel>
+    </Grid>
+
+</Window>
